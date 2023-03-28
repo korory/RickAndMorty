@@ -25,7 +25,7 @@ This application is for personal and non-profit use only.
    ```
 2. Install PODS packages
    ```sh
-   pod install --repo-update
+   pod install
    ```
 3. Open RickAndMortyGraphQL.xcworkspace
 
