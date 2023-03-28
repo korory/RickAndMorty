@@ -1,0 +1,29 @@
+
+query CharactersInformationMainView{
+  characters(page: 1) {
+    results {
+      id
+      name
+      status
+      species
+      gender
+      image
+      episode {
+        id
+        name
+        episode
+        air_date
+      }
+    }
+  }
+}
+
+query GetEpisode($id: ID = "1") {
+  episode(id: $id) {
+      id
+      name
+      air_date
+      episode
+    }
+}
+
